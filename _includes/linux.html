@@ -18,11 +18,11 @@ get help.
 <p>
 
 <li><b>OpenRefine</b>
-  <br>OpenRefine (previously Google Refine) is a tool for data cleaning that runs
-  through a web browser, and any browser - Safari, Firefox, Chrome, Explorer -
-  should work fine.  You will need to download Google Refine and install it, and
-  when you open it, it will run through the browser, but you don't need an
-  internet connection, and the data will all be stored on your computer.
+  <br>OpenRefine (previously Google Refine) is a tool for data cleaning that
+  runs through a web browser. We recommend you use Firefox or Chrome/Chromium.
+  You will need to download Google Refine and install it, and when you open it,
+  it will run through the browser, but you don't need an internet connection,
+  and the data will all be stored on your computer.
   <ul>
     <li>Go to the OpenRefine <a href="http://openrefine.org/download.html">download
 	page</a>
@@ -38,14 +38,18 @@ get help.
 <p>
 
   <li><b>R</b>
-    <br>In the workshop, we will use RStudio. RStudio is a nice interface to the
-    programming language R. To use RStudio, you need to install both R and RStudio.
+
     <ul>
+
+    <br>R and RStudio are two separate software that you will need to
+    install. RStudio is a powerful yet friendly interface to work with the
+    programming language R.
+
       <li>Follow the instructions for your distribution
 	from <a href="https://cloud.r-project.org/bin/linux/">CRAN</a>. For most distributions, you
 	can use your package manager (e.g. for Debian/Ubuntu run <code>sudo
 	apt-get install r-base</code>, and for Fedora run <code>sudo yum install
-	R</code>) but make sure that you have at least R 3.2.2 (as pre-packaged
+	R</code>) but make sure that you have at least R 3.3.1 (as pre-packaged
 	versions might be out of date).
       <li>To install RStudio, go to
 	the <a href="http://www.rstudio.com/ide/download/desktop">RStudio Download
@@ -53,8 +57,13 @@ get help.
       <li>Under <i>Installers</i> select the version for your distribution.
       <li>Once it's downloaded, double click the file to install it (or <code>sudo dpkg
 	  -i rstudio-x.yy.zzz-amd64.deb</code> at the terminal).
-      <li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.
+      <li>Once it's installed, open RStudio to make sure it works and you don't
+	get any error messages.
+      <li>You will also need to install the "tidyverse" package. After starting
+	RStudio, at the terminal
+	type: <code>install.packages("tidyverse")</code>
     </ul>
+</ul>
 
 <p>
 

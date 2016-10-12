@@ -12,9 +12,8 @@ get help.
 <br>For this workshop you will need a spreadsheet program. Many people already have
 Microsoft Excel installed, and if you do, you're set!
 <br>
-If you need a spreadsheet
-program, there are a few other options, like OpenOffice and LibreOffice. Install
-instructions for LibreOffice, which is free and open source, are here.
+If you need a spreadsheet program, we recommend you install LibreOffice, which
+is free and open source, are here.
        <ul>
           <li><b>Download the Installer</b>
         <br>Install LibreOffice by going to the <a href=https://www.libreoffice.org/download/libreoffice-fresh/>installation page</a>. The version for Windows
@@ -30,8 +29,7 @@ Your download should begin automatically.
 
 <li><b>OpenRefine</b>
 <br>OpenRefine (previously Google Refine) is a tool for data cleaning
-that runs through a web browser, and any browser -
-Safari, Firefox, Chrome, Explorer - should work fine.
+that runs through a web browser. We recommend you use Firefox or Chrome.
 You will need to download OpenRefine and install it,
 and when you open it, it will run through the browser, but you don't need
 an internet connection, and the data will all be stored on your computer.
@@ -47,19 +45,46 @@ with openrefine.exe try refine.bat instead)
 
 <p>
 
-<li><b>R</b>
-<br>In the workshop, we will use RStudio. RStudio is a nice interface to the
-programming language R. To use RStudio, you need to install both R and RStudio.
-<ul>
-<li>      Download R from
-      <a href="http://cran.r-project.org/bin/windows/base/release.htm">here</a>
-<li>Run the .exe file that was just downloaded
-<li>Go to the <a href="http://www.rstudio.com/ide/download/desktop">RStudio Download page</a>
-<li>Under <i>Installers</i> select <b>RStudio 0.98.1103 - Windows XP/Vista/7/8</b>
-<li>Double click the file to install it
-<li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.
-</ul>
+  <li><b>R</b>
 
+    <br>R and RStudio are two separate software that you will need to
+    install. RStudio is a powerful yet friendly interface to work with the
+    programming language R.
+
+  <ul>
+  <li><b>If you already have R and RStudio installed</b>
+    <ul>
+      <li>Open RStudio, and click on "Help" > "Check for updates". If a new
+	version is available, quit RStudio, and download the latest version for
+	RStudio.
+      <li>To check the version of R you are using, start RStudio and the first
+	thing that appears on the terminal indicates the version of R you are
+	running. Go <a href="https://cran.r-project.org/bin/windows/base/">here</a>
+	and check whether a more recent version is available. If so, please
+	download and install it. You may also want to consider removing your old
+	version of R. You can
+	check <a href="https://cran.r-project.org/bin/windows/base/rw-FAQ.html#How-do-I-UNinstall-R_003f">here</a>
+	for more information.
+    </ul>
+
+  <li><b>If you don't have R and RStudio installed</b>
+    <ul>
+      <li>Download R from
+      <a href="http://cran.r-project.org/bin/windows/base/release.htm">here</a>
+      <li>Run the .exe file that was just downloaded
+      <li>Go to the <a href="http://www.rstudio.com/ide/download/desktop">RStudio Download page</a>
+      <li>Under <i>Installers</i> select <b>RStudio x.yy.zzz - Windows
+      XP/Vista/7/8</b> (where x, y, and z represent version numbers)
+      <li>Double click the file to install it
+      <li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.
+    </ul>
+  <li><b>In any case you will also need to install the "tidyverse"
+      package.</b>
+    <ul>
+      <li>After starting RStudio, at the terminal
+	type: <code>install.packages("tidyverse")</code>
+    </ul>
+  </ul>
 <p>
 
 <li><b>SQLite</b>
